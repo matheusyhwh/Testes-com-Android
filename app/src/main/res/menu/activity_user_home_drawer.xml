@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Veículos">
+            <menu>
+                <item
+                    android:id="@+id/nav_myvehicles"
+                    android:icon="@drawable/ic_car"
+                    android:title="Lista de Veiculos" />
+                <item
+                    android:id="@+id/nav_myvehiclesonde"
+                    android:icon="@drawable/ic_ondeesta"
+                    android:title="Onde está meu Veículo?" />
+            </menu>
+        </item>
+        <item android:title="Tabelas e Calculos">
+            <menu>
+                <item
+                    android:id="@+id/nav_sharesa"
+                    android:icon="@drawable/ic_gastos"
+                    android:title="Tabela de Gastos" />
+                <item
+                    android:id="@+id/nav_sendsab"
+                    android:icon="@drawable/ic_combustivel"
+                    android:title="Calculo de combustivel" />
+                <item
+                    android:id="@+id/nav_sendsa"
+                    android:icon="@drawable/ic_autonomia"
+                    android:title="Autonomia estimada" />
+
+            </menu>
+        </item>
+        <item android:title="Outros">
+            <menu>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_conta"
+                    android:title="Editar perfil" />
+                <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_config"
+                    android:title="Configurações" />
+            </menu>
+        </item>
+    </group>
+
+
+</menu>
